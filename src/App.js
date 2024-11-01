@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import Card1 from './card1';
+import Card2 from './card2';
+import Card3 from './card3';
+import Card4 from './card4';
+import CardList from './component';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <CardList/>
+      <Card1/>
+      <Card2/>
+      <Card3/>
+      <Card4/>
+      </div>
   );
 }
 
