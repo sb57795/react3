@@ -1,16 +1,26 @@
 .card-main {
     width: 24%;
-    background-color: blue;
+    background-color: rgb(40, 87, 168);
 }
 .card-title{
+    width: 24%;
     background-color: rgb(5, 5, 132);
 }
+.tariff-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); /* адаптивная сетка */
+    gap: 20px; 
+    
+            
+  }
+  
 
 .card6 {
     width: 24%;
     background-color: green;
 }
 .card-title2{
+    width: 24%;
     background-color: rgb(5, 126, 5);
 }
 
@@ -20,6 +30,7 @@
     background-color: red;
 }
 .card-title3{
+    width: 28%;
     background-color: rgb(113, 4, 4);
 }
 
@@ -27,7 +38,9 @@
     width: 24%;
     background-color: black;
 }
+
 .card-title4{
+    width: 24%;
     background-color: rgb(61, 60, 60);
 }
 

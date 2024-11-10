@@ -1,7 +1,7 @@
 import './card.modules.css'
 
 
-function Card4(props) {
+function Card4(props={id:4}) {
     return (
         <div className="card4-card">
             <div className="card-body">
